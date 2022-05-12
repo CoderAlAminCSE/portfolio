@@ -1,0 +1,9 @@
+@extends('layout.app')
+@section('content')
+    @include('component.HomeBanner')
+    @include('component.HomeServices')
+    @include('component.HomeCourses')
+    @include('component.HomeProject')
+    @include('component.HomeContact')
+    @include('component.HomeReview')
+@endsection
